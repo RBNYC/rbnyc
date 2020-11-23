@@ -1,0 +1,216 @@
+body {
+  color: white;
+  background-color: #3F406E;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+/***************************NAVIGATION BAR**************************/
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.bg-custom {
+  background-color: #3F406E;
+}
+
+.site-link {
+  margin-left: 5vw;
+}
+
+.social-link {
+  margin-right: 5vw;
+}
+
+.navbar_img {
+  width: 30px;
+  height: auto;
+}
+
+/***************************HOME**************************/
+.home-container {
+  width: 100%;
+}
+
+.container-fluid {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  width: 40%;
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.top-image {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #6467B0;
+}
+
+.container-fluid:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #ACDEDC;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5vw;
+  text-align: center;
+  padding: 10%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/***************************CAROUSEL**************************/
+.carousel-container {
+  margin-bottom: 150px;
+}
+
+.heading {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 7vw;
+  color: white;
+}
+
+.carousel-item {
+  padding: 0 15% 5%;
+}
+
+.carousel-img {
+  width: 25%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  margin-top: 50px;
+}
+
+.project-title {
+  line-height: 1.5;
+}
+
+.p-link:hover {
+  color: #8F8F9F;
+  text-decoration: none;
+}
+
+.project-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.project-techno {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/***************************FAVORITE BOOKS**************************/
+.fb-container {
+  margin-top: 70px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+.fb-book {
+  height: 327.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-img {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.book-description{
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.book-title {
+  text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 350;
+  margin: 25px 0 0;
+}
+
+.book-author{
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 350;
+  margin: 7px 0 0;
+}
+
+/***************************CONTACT**************************/
+.ct-heading{
+  font-weight: 350;
+  font-size: 2rem;
+}
+
+.btn-light{
+  background-color: #6467B0;
+  border-color: #6467B0;
+  color: white;
+  font-size: 1.5rem;
+  padding: 6px 15px;
+  margin-top: 30px;
+}
+
+/***************************FOOTER**************************/
+.bottom-container {
+  position: relative;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+/***************************COPYRIGHT**************************/
+.copyright {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding: 5px 0 10px;
+}
+
+.linkedin_img {
+  padding-top: 20px;
+  width: 2%;
+}
