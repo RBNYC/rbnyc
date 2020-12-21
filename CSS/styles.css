@@ -99,12 +99,20 @@ a {
   color: white;
 }
 
+.carousel-inner .carousel-item{
+  height:570px;
+  }
+
+  .carousel-indicators{
+    top:100%
+  }
+
 .carousel-item {
-  padding: 0 15% 5%;
+  padding: 0 15% 0;
 }
 
 .carousel-img {
-  width: 25%;
+  width: 20%;
   height: auto;
   margin-top: 50px;
 }
@@ -126,12 +134,12 @@ a {
 }
 
 .project-description {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 
 .project-techno {
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 
